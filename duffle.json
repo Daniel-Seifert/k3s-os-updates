@@ -17,5 +17,5 @@
   ],
   "name": "k3s-os",
   "schemaVersion": "v1.0.0-WD",
-  "version": "0.1.0"
+  "version": "0.3.0-no-k3s"
 }
