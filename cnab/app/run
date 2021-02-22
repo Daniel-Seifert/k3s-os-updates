@@ -3,7 +3,7 @@ action=$CNAB_ACTION
 
 if [[ $action == "install" ]]; then
     echo "Installing K3S.OS at version 0.3.0-no-k3s"
-    mender -install /cnab/app/rpi4-0.3.0-no-k3s.mender && mender -commit && reboot
+    mender -install /cnab/app/rpi4-0.3.0.mender && mender -commit && reboot
 elif [[ $action == "uninstall" ]]; then
     echo "Mender artifact cannot be uninstalled!"
 fi
