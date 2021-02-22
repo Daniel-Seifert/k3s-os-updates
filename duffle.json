@@ -1,0 +1,21 @@
+{
+  "description": "K3S.OS mender OTA-Update for raspberry pi",
+  "invocationImages": {
+    "cnab": {
+      "builder": "docker",
+      "configuration": { "registry": "dseifert" },
+      "name": "cnab"
+    }
+  },
+  "keywords": ["k3s-os", "cnab"],
+  "maintainers": [
+    {
+      "email": "daniel.seifert@hm.edu",
+      "name": "Daniel Seifert",
+      "url": "https://github.com/Daniel-Seifert"
+    }
+  ],
+  "name": "k3s-os",
+  "schemaVersion": "v1.0.0-WD",
+  "version": "0.1.0"
+}
